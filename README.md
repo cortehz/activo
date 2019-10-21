@@ -4,7 +4,7 @@ Activo lets users create, view, edit and delete Activities. Activities can also 
 ## Available Scripts
 To run the App: 
 
-Clone this Repo using your terminal or download the zip file. I recommend you clone using: `git clone `
+Clone this Repo using your terminal or download the zip file. I recommend you clone using: `git clone https://github.com/cortehz/activo.git`
 
 Then go into the project directory by running: `cd activo`
 
