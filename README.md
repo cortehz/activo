@@ -17,5 +17,5 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 <br/>
 
-Once the app is running, you can fill the form to add an Activity. An activity can have a title, a start and end time as well as a description. Fill that out and hit the ADD button to see your activity added to the list.
+Once the app is running, you can fill the form to add an Activity. An activity can have a title, a start and end time as well as a description. Fill that out and hit the ADD button to see your activity added to the list. You can sort out your activities in order of dates(ascending or descending) by just a push of a button. Below the Activity list are two buttons to edit or delete an activity from the list. Take it for spin.
 
