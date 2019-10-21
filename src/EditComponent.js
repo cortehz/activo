@@ -7,10 +7,12 @@ class EditComponent extends Component {
     const newTitle = this.getTitle.value;
     const newDescription = this.getDescription.value;
     const newDuration = this.getDuration.value;
+    const newDurationTwo = this.getDurationTwo.value;
     const data = {
       newTitle,
       newDescription,
-      newDuration
+      newDuration,
+      newDurationTwo
     };
     this.props.dispatch({
       type: "UPDATE",
@@ -31,7 +33,7 @@ class EditComponent extends Component {
           />
           <br />
           <br />
-          <textarea
+          <input
             required
             rows="5"
             ref={input => (this.getDescription = input)}
@@ -41,14 +43,33 @@ class EditComponent extends Component {
           />
           <br />
           <br />
-
-          <textarea
+          <input
             required
             rows="5"
             ref={input => (this.getDuration = input)}
             defaultValue={this.props.activity.duration}
             cols="28"
-            placeholder="Enter New Duration"
+            type="time"
+            id="appt"
+            name="appt"
+            min="00:00"
+            placeholder="Start of Activity"
+            max="23:59"
+          />{" "}
+          <br />
+          <br />
+          <input
+            required
+            rows="5"
+            ref={input => (this.getDurationTwo = input)}
+            defaultValue={this.props.activity.durationTwo}
+            cols="28"
+            type="time"
+            id="appt"
+            name="appt"
+            min="00:00"
+            placeholder="End of Activity"
+            max="23:59"
           />
           <br />
           <br />

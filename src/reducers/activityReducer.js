@@ -6,8 +6,7 @@ const activityReducer = (state = [], action) => {
       return state.filter(activity => activity.id !== action.id);
     case "EDIT_ACTIVITY":
       return state.map(activity =>
-        activity.id === action.id ?
-        {
+        activity.id === action.id ? {
           ...activity,
           editing: !activity.editing
         } :
