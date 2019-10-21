@@ -1,0 +1,25 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+}
+
+html,
+body {
+  margin: 0
+}
+
+.create-activity {
+  display: flex;
+  flex-direction: column;
+  background: turquoise;
+  flex: 1;
+  padding: 2%;
+}
+
+
+.activity-list {
+  display: flex;
+  flex: 2;
+  flex-direction: column;
+}
