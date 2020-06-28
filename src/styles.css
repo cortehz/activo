@@ -9,8 +9,9 @@ body,
   font-family: sans-serif;
   text-align: center;
   flex-direction: row;
+  /* flex-wrap: wrap; */
   display: flex;
-  height: 100%;
+  height: 100vh;
 }
 
 html,
@@ -40,18 +41,13 @@ p {
   flex: 3;
   flex-direction: column;
   background: #15a2e3;
-  /* fallback for old browsers */
-  /* background: -webkit-linear-gradient(to right, #EA384D, #D31027); */
-  /* Chrome 10-25, Safari 5.1-6 */
-  /* background: linear-gradient(to right, #EA384D, #D31027); */
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  height: 100%;
+  height: auto;
 }
 
 .create-activity {
   display: flex;
   flex-direction: column;
+  height: auto;
   justify-content: center;
   align-content: center;
   align-items: center;
