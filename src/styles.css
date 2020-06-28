@@ -11,7 +11,7 @@ body,
   flex-direction: row;
   /* flex-wrap: wrap; */
   display: flex;
-  height: 100vh;
+  /* height: 100vh; */
 }
 
 html,
