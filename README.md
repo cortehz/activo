@@ -1,5 +1,5 @@
 Activo was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). <br/>
-Activo lets users create, view, edit and delete Activities. Activities can also be sorted in order of ascending order of Dates.
+Activo lets users create, view, edit and delete Activities. Activities can also be sorted in order of ascending order of Dates. Simple React and Redux implementation.
 
 ## Available Scripts
 To run the App: 
